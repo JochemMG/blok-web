@@ -33,17 +33,18 @@ Responsive
 
 ### Je opdracht:
 
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://www.apple.com/nl/shop/buy-iphone/iphone-12
 
 #### Screenshot(s) van de eerste pagina (small screen):
 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+verkoop pagina (druk op cmd shift + r om alle foto's makkelijk te kopieren)  
+<img src="images/Verkoop-pagina-1.png" width="375px" alt="eerste deel">
+<img src="images/Verkoop-pagina-2.png" width="375px" alt="tweede deel">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+vergelijken telefoons
+<img src="images/vergelijken-pagina.png" width="375px" alt="vergelijken van telefoons">
 
 </details>
 
