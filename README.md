@@ -74,7 +74,7 @@ vergelijken telefoons
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Code zag er goed uit, meer gebruik maken van comments in m'n html en css. En even nagaan hoe belangrijk het is om nth te gebruiken ipv classes. Want dat kan ik nog verbeteren.
 
 ### Agenda voor meeting
 

@@ -7,14 +7,82 @@
 
 :root {
   --unique-color: orange;
+  --accent-color: rgb(37, 37, 37);
+  --button-color: rgb(44, 114, 219);
+  --main-color: white;
+  --second-background-color: rgb(23, 48, 56);
 }
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/* header start */
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+
+  background-color: var(--accent-color);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* header end */
+
+.preview {
+  display: flex;
+  flex-direction: column;
+}
+
+/* images in preview */
+
+.preview .pic_first {
+  width: 2.7em;
+}
+
+.preview .pic_second {
+  width: 2.6em;
+}
+
+.preview .pic_three {
+  width: 2.6em;
+}
+
+.preview .pic_four {
+  width: 1.4em;
+}
+
+.preview .pic_five {
+  width: 1.7em;
+}
+
+.preview .pic_six {
+  width: 3em;
+}
+
+.preview .pic_nine {
+  width: 2.4em;
+}
+
+.preview .pic_ten {
+  width: 2em;
+}
+
+.preview .pic_twelve {
+  width: 4em;
+}
+
+/* end - images in preview */
 
 .preview img {
   width: 2em;
 }
 
 .preview p {
-  font-size: 0.5em;
+  font-size: 0.8em;
   white-space: pre-line;
 }
 
@@ -31,6 +99,8 @@
   overscroll-behavior: none;
 
   align-items: flex-end;
+
+  gap: 0.5em;
 
   padding: 0;
 }
@@ -52,11 +122,68 @@
   position: relative;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
+p {
+  font-family: "San Francisco";
 }
 
-img {
-  max-width: 20em;
+/* 13 pro main - start */
+
+.thirteen_pro_main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
+
+.thirteen_pro_main img {
+  width: 15em;
+  margin-bottom: 0.5em;
+}
+
+.thirteen_pro_main p:first-of-type {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.thirteen_pro_main p {
+  text-align: center;
+  margin: 1em 2em 0em 2em;
+  font-size: 0.9em;
+}
+
+.thirteen_pro_main p:last-of-type {
+  margin-bottom: 1.5em;
+}
+
+.thirteen_pro_main button {
+  background-color: var(--button-color);
+  color: var(--main-color);
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 2.5em;
+  border: none;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.thirteen_pro_main a {
+  margin-bottom: 2em;
+  text-decoration: none;
+  color: var(--button-color);
+}
+
+/* 13 pro main - end */
+
+/* iphone 13 pro - start */
+
+.iphone_thirteen_main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--second-background-color);
+
+  color: var(--main-color);
+}
+
+/* iphone 13 pro - end */
