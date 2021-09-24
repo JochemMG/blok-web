@@ -281,10 +281,32 @@ h2 {
 
 /* compare section - end */
 
-/* comparing section - start */
+/* comparing section - iphone 13 pro - start */
 
 .iphone_thirteen_and_pro_main {
   display: grid;
 }
 
+.iphone_thirteen_pro_column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.iPhone_thirteen_pro_first_part {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.iphone_thirteen_pro_specs {
+  display: flex;
+  flex-direction: column;
+}
+
 /* comparing section - end */
+
+/* comparing section - iphone 13 - start */
+
+/* comparing section - iphone 13 - end */
