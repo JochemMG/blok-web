@@ -1,0 +1,282 @@
+/* CSS Document */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --unique-color: orange;
+  --accent-color: rgb(37, 37, 37);
+  --button-color: rgb(44, 114, 219);
+  --main-color: white;
+  --second-background-color: rgb(52, 40, 60);
+  --second-accent-color: rgb(134, 134, 139);
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+/* standaards - start */
+
+body {
+  margin: 0;
+}
+
+a {
+  margin-bottom: 2em;
+  text-decoration: none;
+  color: var(--button-color);
+}
+
+img {
+  width: 100%;
+}
+
+/* standaards - end */
+
+/* header start */
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+
+  background-color: var(--accent-color);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* header end */
+
+.preview {
+  display: flex;
+  flex-direction: column;
+}
+
+/* images in preview */
+
+.preview .pic_first {
+  width: 2.7em;
+}
+
+.preview .pic_second {
+  width: 2.6em;
+}
+
+.preview .pic_three {
+  width: 2.6em;
+}
+
+.preview .pic_four {
+  width: 1.4em;
+}
+
+.preview .pic_five {
+  width: 1.7em;
+}
+
+.preview .pic_six {
+  width: 3em;
+}
+
+.preview .pic_nine {
+  width: 2.4em;
+}
+
+.preview .pic_ten {
+  width: 2em;
+}
+
+.preview .pic_twelve {
+  width: 4em;
+}
+
+/* end - images in preview */
+
+.preview img {
+  width: 2em;
+}
+
+.preview p {
+  font-size: 0.8em;
+  white-space: pre-line;
+}
+
+.preview .orange_p {
+  color: var(--unique-color);
+  position: absolute;
+  bottom: -1em;
+}
+
+.preview ul {
+  display: flex;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior: none; /*  */
+
+  align-items: flex-end;
+
+  gap: 0.5em;
+
+  padding: 0;
+}
+
+.preview ul li {
+  flex-basis: 5em;
+  flex-shrink: 0;
+  align-items: center;
+
+  scroll-snap-align: center;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+}
+
+p {
+  font-family: "San Francisco";
+}
+
+/* 13 pro main - start */
+
+.thirteen_pro_main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thirteen_pro_main img {
+  width: 15em;
+  margin-bottom: 0.3em;
+}
+
+.thirteen_pro_main p:first-of-type {
+  font-size: 2.5em;
+  font-family: "San Francisco";
+  font-weight: bold;
+  margin: 0;
+}
+
+.thirteen_pro_main p {
+  text-align: center;
+  margin: 1em 2em 0em 2em;
+  font-size: 0.9em;
+}
+
+.thirteen_pro_main p:last-of-type {
+  margin-bottom: 1.5em;
+}
+
+.thirteen_pro_main button {
+  background-color: var(--button-color);
+  color: var(--main-color);
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 2.5em;
+  border: none;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.thirteen_pro_main p:nth-child(4) {
+  color: var(--second-accent-color);
+}
+
+/* 13 pro main - end */
+
+/* iphone 13 pro - start */
+h1 {
+  font-family: "San Francisco";
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+.iphone_thirteen_main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--second-background-color);
+
+  color: var(--main-color);
+
+  margin: 0;
+}
+
+h2 {
+  margin-top: 2em;
+  font-size: 1em;
+  font-family: "San Francisco";
+  font-weight: bold;
+}
+
+.iphone_thirteen_main p:first-of-type {
+  margin-top: 0.1em;
+  font-size: 2em;
+  font-family: "San Francisco";
+  font-weight: bolder;
+}
+
+.iphone_thirteen_main p {
+  margin: 1.5em 1.5em 0em 1.5em;
+  text-align: center;
+}
+
+.iphone_thirteen_main p:last-of-type {
+  margin-bottom: 1.5em;
+}
+
+.iphone_thirteen_main img {
+  width: 100%;
+}
+
+.iphone_thirteen_main button {
+  background-color: var(--button-color);
+  color: var(--main-color);
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 2.5em;
+  border: none;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.iphone_thirteen_main p:last-of-type {
+  color: var(--second-accent-color);
+}
+
+/* iphone 13 pro - end */
+
+/* compare section - start */
+
+.compare {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.compare h2 {
+  font-family: "San Francisco";
+  font-weight: bolder;
+  font-size: 2em;
+  text-align: center;
+  margin: 3em 0 3em 0;
+}
+
+.compare img {
+  width: 5%;
+}
+
+.compare .main_img_compare {
+  width: 25%;
+}
+
+/* compare section - end */
