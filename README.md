@@ -134,7 +134,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 
-Lijst met je bevindingen die in de test naar voren kwamen:
+Bij de preview bar, word de compare image niet meegenomen
+
+kleuren button een alt tekst geven zodat er wordt gezegd, pruple button
+
+speelt met tab alleen de linkjes af
+
+greater then icon misschien als een img maken ofzo, idk
 
 #### Titel eerste bevinding
 
