@@ -733,17 +733,6 @@ nav {
   order: -1;
 }
 
-nav button {
-  width: 5em;
-  height: 2.5em;
-  appearance: none;
-  background-color: var(--button-background-color);
-  border: none;
-
-  position: relative;
-  z-index: 150;
-}
-
 nav ul {
   margin: 0;
   padding: 4em 0 0;
@@ -871,4 +860,200 @@ h1 {
   border: none;
   padding: 0.25em 0.5em 0.25em 0.5em;
   color: blue;
+}
+
+/*******************/
+/* hamburger icoon */
+/*******************/
+
+nav button {
+  position: absolute;
+  z-index: 150;
+  transition: all 0.25s;
+}
+
+nav button span:first-of-type,
+nav button span:last-of-type {
+  position: absolute;
+  left: 15px;
+  width: 22px;
+  height: 1px;
+  background: var(--main-color);
+  transform: rotate(0);
+  transition: all 0.25s;
+}
+
+span:first-of-type {
+  top: 3px;
+  transform: translateY(-3px);
+}
+
+span:last-of-type {
+  bottom: 1px;
+  transform: translateY(1px);
+}
+
+.toonMenu button {
+  transform: rotate(90deg);
+}
+
+.toonMenu span:first-of-type {
+  transform: rotate(45deg) translateY(0px);
+}
+
+.toonMenu span:last-of-type {
+  transform: rotate(-45deg) translateY(0px);
+}
+
+/***************************/
+/* vergelijken.html pagina */
+/***************************/
+
+button img {
+  width: 2em;
+  height: auto;
+}
+
+button {
+  background: none;
+  border: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color_preview {
+  display: flex;
+  flex-direction: row;
+}
+
+.color_preview article > img {
+  width: 7.5em;
+  margin: 1em 2em 1em 2em;
+}
+
+.color_preview article:last-of-type {
+  margin-top: 0.6em;
+}
+
+.color_preview p {
+  margin: 0.5em 0 0 0;
+
+  font-family: "SF Pro Display Regular";
+  font-size: 0.85em;
+}
+
+.buttons_first_column {
+  width: 10em;
+  height: 10em;
+}
+
+.buttons_second_column {
+  width: 10em;
+  height: 10em;
+}
+
+/********************************/
+/* positioneren buttons - start */
+/********************************/
+
+.color_preview article:first-of-type section,
+.color_preview article:last-of-type section {
+  position: relative;
+}
+
+/* ^ zodat de buttons position absolute kunnen krijgen */
+
+.color_preview .buttons_first_column button:first-of-type {
+  position: absolute;
+  top: 0;
+  left: 4em;
+}
+
+.color_preview .buttons_first_column button:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 2.3em;
+}
+
+.color_preview .buttons_first_column button:nth-child(3) {
+  position: absolute;
+  bottom: 5.5em;
+  left: 4em;
+}
+
+.color_preview .buttons_first_column button:last-of-type {
+  position: absolute;
+  bottom: 5.5em;
+  right: 2.35em;
+}
+
+/* text positioneren */
+
+.buttons_first_column p:first-of-type {
+  position: absolute;
+  top: 1.7em;
+  left: 3.2em;
+}
+
+.buttons_first_column p:nth-last-child(3) {
+  position: absolute;
+  top: 1.7em;
+  right: 2.35em;
+}
+
+.buttons_first_column p:nth-last-child(2) {
+  position: absolute;
+  bottom: 4em;
+  left: 4.2em;
+}
+
+.buttons_first_column p:last-of-type {
+  position: absolute;
+  bottom: 4em;
+  right: 1.7em;
+}
+
+/*****************/
+/* second column */
+/*****************/
+
+.buttons_second_column button:first-of-type {
+  position: absolute;
+  top: 0;
+  left: 2.4em;
+}
+
+.buttons_second_column button:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 1.6em;
+}
+
+.buttons_second_column button:nth-child(3) {
+  position: absolute;
+  bottom: 4.5em;
+  left: 3.5em;
+}
+
+.buttons_second_column button:last-of-type {
+  position: absolute;
+  bottom: 4.5em;
+  right: 1em;
+}
+/*******************************/
+/* positioneren buttons - end  */
+/*******************************/
+
+.hidden_text {
+  display: none;
+}
+
+/*************************************/
+/* even testen of dit allemaal werkt */
+/*************************************/
+
+.removed_text {
+  display: none;
 }
