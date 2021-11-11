@@ -22,6 +22,7 @@
   --menu-border-color: white;
 
   --nav-accent-color: rgb(173, 173, 173);
+  --underline-color: lightgray;
 }
 
 /* fonts - start */
@@ -110,7 +111,7 @@
 body {
   margin: 0;
   font-family: "SF Pro Display Regular", -apple-system, BlinkMacSystemFont,
-    Arial;
+    sans-serif;
 }
 
 a {
@@ -179,7 +180,8 @@ img {
 .preview p {
   font-size: 0.7em;
   white-space: pre-line;
-  font-family: "SF Pro Display Regular", Arial;
+  font-family: "SF Pro Display Regular", -apple-system, BlinkMacSystemFont,
+    sans-serif;
 }
 
 .preview .orange_p {
@@ -262,6 +264,22 @@ img {
   margin: 0 0 2em 0;
 }
 
+.iphone_twelve_main a:nth-last-of-type(2) {
+  background-color: var(--button-color);
+  color: var(--main-color);
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 2.5em;
+  border: none;
+  font-size: 1em;
+  margin: 0 0 1em 0;
+}
+
+.iphone_twelve_main a:last-of-type {
+  margin: 0 0 2.5em 0;
+  padding: 0 0 3em 0;
+  border-bottom: var(--underline-color) 0.5px solid;
+}
+
 .thirteen_pro_main p:nth-child(4) {
   color: var(--second-accent-color);
 }
@@ -302,7 +320,7 @@ img {
   width: 100%;
 }
 
-.iphone_thirteen_main a:first-of-type {
+.ihone_thirteen_main a:first-of-type {
   background-color: var(--button-color);
   color: var(--main-color);
   padding: 0.5em 1em 0.5em 1em;
@@ -345,6 +363,11 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: minmax(auto, 3em);
+  grid-row-gap: 1.5em;
+}
+
+.iphone_thirteen_and_pro_main h3 {
+  font-size: 1.5em;
 }
 
 /* comparing section - iphone 13 pro - start */
@@ -364,6 +387,22 @@ img {
   flex-direction: column;
   text-align: center;
   align-items: center;
+}
+
+.iPhone_thirteen_pro_first_part a:nth-last-of-type(2) {
+  background-color: var(--button-color);
+  color: var(--main-color);
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 2.5em;
+  border: none;
+  font-size: 1em;
+  margin: 0 0 1em 0;
+}
+
+.iPhone_thirteen_pro_first_part a:last-of-type {
+  margin: 0 0 2.5em 0;
+  padding: 0 0 3em 0;
+  border-bottom: var(--underline-color) 0.5px solid;
 }
 
 .iphone_thirteen_pro_specs {
@@ -403,6 +442,22 @@ img {
   align-items: center;
   flex-direction: column;
   margin: 5.35em 0 0 0;
+}
+
+.iphone_thirteen_first_part a:nth-last-of-type(2) {
+  background-color: var(--button-color);
+  color: var(--main-color);
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 2.5em;
+  border: none;
+  font-size: 1em;
+  margin: 0 0 1em 0;
+}
+
+.iphone_thirteen_first_part a:last-of-type {
+  margin: 0 0 2.5em 0;
+  padding: 0 0 3em 0;
+  border-bottom: solid var(--underline-color) 0.5px;
 }
 
 .iphone_thirteen_first_part {
@@ -452,12 +507,36 @@ img {
   align-items: center;
 }
 
+.iphone_twelve_main a:nth-last-of-type(2) {
+  background-color: var(--button-color);
+  color: var(--main-color);
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 2.5em;
+  border: none;
+  font-size: 1em;
+  margin: 0 0 1em 0;
+}
+
+.iphone_twelve_main a:last-of-type {
+  margin: 0 0 2.5em 0;
+  padding: 0 0 3em 0;
+  border-bottom: var(--underline-color) 0.5px solid;
+}
+
+.iphone_twelve_main img {
+  width: 71%;
+}
+
 .iphone_twelve_specs {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+
+.iphone_twelve_main p:first-of-type {
+  padding: 0 2em 0 2em;
 }
 
 .iphone_twelve_main ul {
@@ -491,12 +570,36 @@ img {
   text-align: center;
 }
 
+.iphone_se_main a:nth-last-of-type(2) {
+  background-color: var(--button-color);
+  color: var(--main-color);
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 2.5em;
+  border: none;
+  font-size: 1em;
+  margin: 0 0 1em 0;
+}
+
+.iphone_se_main a:last-of-type {
+  margin: 0 0 2.5em 0;
+  padding: 0 0 3em 0;
+  border-bottom: var(--underline-color) 0.5px solid;
+}
+
+.iphone_se_main img {
+  width: 60%;
+}
+
 .iphone_se_specs {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.iphone_se_specs img:first-of-type {
+  margin: 0.29em 0 0 0;
 }
 
 .iphone_se_main ul {
@@ -547,7 +650,8 @@ img {
 }
 
 .featured_accessoires h2 {
-  font-family: "SF Pro Display Medium", Arial;
+  font-family: "SF Pro Display Medium", -apple-system, BlinkMacSystemFont,
+    sans-serif;
   font-size: 2em;
   background-color: var(--third-background-color);
   padding: 2em 2em 1em 2em;
@@ -557,7 +661,8 @@ img {
 
 .featured_accessoires a {
   font-size: 1.1em;
-  font-family: "SF Pro Display Regular", Arial;
+  font-family: "SF Pro Display Regular", -apple-system, BlinkMacSystemFont,
+    sans-serif;
 }
 
 /* magsafe section - start */
@@ -580,7 +685,8 @@ img {
   font-size: 1.05em;
   line-height: 1.35em;
 
-  font-family: "SF Pro Display Regular", Arial;
+  font-family: "SF Pro Display Regular", -apple-system, BlinkMacSystemFont,
+    sans-serif;
 }
 
 /* magsafe section - end */
@@ -599,7 +705,8 @@ img {
   font-size: 1.05em;
   line-height: 1.35em;
 
-  font-family: "SF Pro Display Regular", Arial;
+  font-family: "SF Pro Display Regular", -apple-system, BlinkMacSystemFont,
+    sans-serif;
 }
 
 .airtag a:first-of-type {
@@ -629,7 +736,8 @@ img {
   font-size: 1.05em;
   line-height: 1.35em;
 
-  font-family: "SF Pro Display Regular", Arial;
+  font-family: "SF Pro Display Regular", -apple-system, BlinkMacSystemFont,
+    sans-serif;
 }
 
 .airpods a:first-of-type {
@@ -766,7 +874,7 @@ nav.toonMenu ul {
 nav.toonMenu li {
   margin: 0.4em 2.5em 0 2.5em;
   z-index: 100;
-  border-bottom: lightgray solid 0.5px;
+  border-bottom: var(--underline-color) solid 0.5px;
 }
 
 nav.toonMenu a {
@@ -831,7 +939,8 @@ nav a.active {
 /*******************************/
 
 h1 {
-  font-family: "SF Pro Display Regular", Arial;
+  font-family: "SF Pro Display Regular", -apple-system, BlinkMacSystemFont,
+    sans-serif;
   font-size: 1.1em;
   font-weight: 700;
   margin: 0.75em 0.5em 0.5em 0.5em;
@@ -945,7 +1054,8 @@ button {
 .color_preview p {
   margin: 0.5em 0 0 0;
 
-  font-family: "SF Pro Display Regular", Arial;
+  font-family: "SF Pro Display Regular", -apple-system, BlinkMacSystemFont,
+    sans-serif;
   font-size: 0.85em;
 }
 
@@ -1081,7 +1191,8 @@ button {
   text-align: center;
   align-items: center;
 
-  font-family: "SF Pro Display Medium", Arial;
+  font-family: "SF Pro Display Medium", -apple-system, BlinkMacSystemFont,
+    sans-serif;
   font-size: 1em;
 }
 
@@ -1114,7 +1225,12 @@ button {
 h3 {
   font-size: 2.75em;
   margin: 0 0 0.25em 0;
-  font-family: "SF Pro Display Regular", Arial;
+  font-family: "SF Pro Display Regular", -apple-system, BlinkMacSystemFont,
+    sans-serif;
+}
+
+h4 {
+  padding: 0 0.5em 0 0.5em;
 }
 
 /*******************************************/
@@ -1192,7 +1308,8 @@ h3 {
 }
 
 .size_and_weight li:nth-child(odd) {
-  font-family: "SF Pro Display Medium", Arial;
+  font-family: "SF Pro Display Medium", -apple-system, BlinkMacSystemFont,
+    sans-serif;
   margin: 0 0 0.3em 0;
 }
 
@@ -1229,7 +1346,8 @@ h3 {
 h2 {
   margin: 0 0 1em 1em;
   padding: 0 0 0.9em 0;
-  font-family: "SF Pro Display Regular", Arial;
+  font-family: "SF Pro Display Regular", -apple-system, BlinkMacSystemFont,
+    sans-serif;
   font-size: 1.5em;
 }
 

@@ -132,7 +132,7 @@ Ik heb eigenlijk alles wat ik wilde zo goed als mogelijk gefixt, alleen de navig
 <img src="images/vergelijkenButtons.png" width="375px" alt="vergelijken.html voorbeeldje van de buttons">
 <img src="images/defaultFont.jpg" width="375px" alt="default font zonder opmaak">
 <img src="images/appleFont.jpg" width="375px" alt="daadwerkelijke apple-font">
-<img src="images/secondFont.jpg" width="375px" alt="aangepaste apple-font">
+<img src="images/secondFont.jpeg" width="375px" alt="aangepaste apple-font">
 
 ### Screenshot(s)
 
@@ -158,5 +158,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 9. https://css-tricks.com/almanac/properties/f/flex-wrap/
 10. https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap
 11. https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
+12. https://stackoverflow.com/questions/32660748/how-to-use-apples-new-san-francisco-font-on-a-webpage
+13. https://developer.apple.com/fonts/
 
 </details>
