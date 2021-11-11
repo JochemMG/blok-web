@@ -136,7 +136,8 @@ Ik heb eigenlijk alles wat ik wilde zo goed als mogelijk gefixt, alleen de navig
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/eindresultaat_index.png" alt="eindresultaat screenshot van de index.html">
+<img src="images/eindresultaat_vergelijken.png" alt="eindresultaat screenshot van vergelijken.html">
 
 </details>
 
