@@ -126,9 +126,10 @@ Css van index.html staat er al, header en footer staan ook beide maar de opmaak 
 
 ### Stand van zaken
 
-Ik heb eigenlijk alles wat ik wilde zo goed als mogelijk gefixt, alleen de navigatie-knop werkt uiteindelijk niet zoals ik wil helaas. Ook werken bij de vergelijken pagina
+Ik heb eigenlijk alles wat ik wilde zo goed als mogelijk gefixt, alleen de navigatie-knop werkt uiteindelijk niet zoals ik wil helaas. Ook werken bij de vergelijken pagina de buttons niet exact zoals op de apple-pagina, net als het kiezen van verschillende telefoons om te vergelijken werkt niet 1:1.
 
-<img src="images/Headerknopje.png" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/Headerknopje.png" width="375px" alt="navigatie knop">
+<img src="images/vergelijkenButtons" width="375px" alt="vergelijken.html voorbeeldje van de buttons">
 
 ### Screenshot(s)
 

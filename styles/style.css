@@ -33,11 +33,10 @@
 }
 
 @font-face {
-  font-family: "SF Pro Display Regular";
+  font-family: AppleFontTekst;
   font-style: normal;
   font-weight: normal;
-  src: local("SF Pro Display Regular"),
-    url("SFPRODISPLAYREGULAR.woff") format("woff");
+  src: local(AppleFontTekst), url("SFPRODISPLAYREGULAR.woff") format("woff");
 }
 
 @font-face {
@@ -109,7 +108,7 @@
 
 body {
   margin: 0;
-  font-family: "SF Pro Display Regular";
+  font-family: "AppleFontTekst";
 }
 
 a {
@@ -178,7 +177,7 @@ img {
 .preview p {
   font-size: 0.7em;
   white-space: pre-line;
-  font-family: "SF Pro Display Regular";
+  font-family: "AppleFontTekst";
 }
 
 .preview .orange_p {
@@ -556,7 +555,7 @@ img {
 
 .featured_accessoires a {
   font-size: 1.1em;
-  font-family: "SF Pro Display Regular";
+  font-family: "AppleFontTekst";
 }
 
 /* magsafe section - start */
@@ -579,7 +578,7 @@ img {
   font-size: 1.05em;
   line-height: 1.35em;
 
-  font-family: "SF Pro Display Regular";
+  font-family: "AppleFontTekst";
 }
 
 /* magsafe section - end */
@@ -598,7 +597,7 @@ img {
   font-size: 1.05em;
   line-height: 1.35em;
 
-  font-family: "SF Pro Display Regular";
+  font-family: "AppleFontTekst";
 }
 
 .airtag a:first-of-type {
@@ -628,7 +627,7 @@ img {
   font-size: 1.05em;
   line-height: 1.35em;
 
-  font-family: "SF Pro Display Regular";
+  font-family: "AppleFontTekst";
 }
 
 .airpods a:first-of-type {
@@ -830,7 +829,7 @@ nav a.active {
 /*******************************/
 
 h1 {
-  font-family: "SF Pro Display Regular";
+  font-family: "AppleFontTekst";
   font-size: 1.1em;
   font-weight: 700;
   margin: 0.75em 0.5em 0.5em 0.5em;
@@ -944,7 +943,7 @@ button {
 .color_preview p {
   margin: 0.5em 0 0 0;
 
-  font-family: "SF Pro Display Regular";
+  font-family: "AppleFontTekst";
   font-size: 0.85em;
 }
 
@@ -1113,7 +1112,7 @@ button {
 h3 {
   font-size: 2.75em;
   margin: 0 0 0.25em 0;
-  font-family: "SF Pro Display Regular";
+  font-family: "AppleFontTekst";
 }
 
 /*******************************************/
@@ -1228,7 +1227,7 @@ h3 {
 h2 {
   margin: 0 0 1em 1em;
   padding: 0 0 0.9em 0;
-  font-family: "SF Pro Display Regular";
+  font-family: "AppleFontTekst";
   font-size: 1.5em;
 }
 
