@@ -126,10 +126,13 @@ Css van index.html staat er al, header en footer staan ook beide maar de opmaak 
 
 ### Stand van zaken
 
-Ik heb eigenlijk alles wat ik wilde zo goed als mogelijk gefixt, alleen de navigatie-knop werkt uiteindelijk niet zoals ik wil helaas. Ook werken bij de vergelijken pagina de buttons niet exact zoals op de apple-pagina, net als het kiezen van verschillende telefoons om te vergelijken werkt niet 1:1.
+Ik heb eigenlijk alles wat ik wilde zo goed als mogelijk gefixt, alleen de navigatie-knop werkt uiteindelijk niet zoals ik wil helaas. Ook werken bij de vergelijken pagina de buttons niet exact zoals op de apple-pagina, net als het kiezen van verschillende telefoons om te vergelijken werkt niet 1:1. Waar ik ook van baal is dat het specifieke font wat apple gebruikt kan ik niet oploaden op Github. Ik heb een alternatief font gedownload wat er op lijkt zodat ik er wel iets aan heb op Github.
 
 <img src="images/Headerknopje.png" width="375px" alt="navigatie knop">
-<img src="images/vergelijkenButtons" width="375px" alt="vergelijken.html voorbeeldje van de buttons">
+<img src="images/vergelijkenButtons.png" width="375px" alt="vergelijken.html voorbeeldje van de buttons">
+<img src="images/defaultFont.jpg" width="375px" alt="default font zonder opmaak">
+<img src="images/appleFont.jpg" width="375px" alt="daadwerkelijke apple-font">
+<img src="images/secondFont.jpg" width="375px" alt="aangepaste apple-font">
 
 ### Screenshot(s)
 
@@ -144,8 +147,16 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+2. https://css-tricks.com/useful-nth-child-recipies/
+3. https://css-tricks.com/snippets/css/complete-guide-grid/
+4. https://www.youtube.com/watch?v=jx5jmI0UlXU
+5. https://youtu.be/br-0i3U1VCA
+6. https://youtu.be/2KL-z9A56SQ
+7. https://zellwk.com/blog/style-hover-focus-active-states/
+8. https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode
+9. https://css-tricks.com/almanac/properties/f/flex-wrap/
+10. https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap
+11. https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
 
 </details>

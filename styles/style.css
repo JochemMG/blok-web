@@ -33,10 +33,11 @@
 }
 
 @font-face {
-  font-family: AppleFontTekst;
+  font-family: "SF Pro Display Regular";
   font-style: normal;
   font-weight: normal;
-  src: local(AppleFontTekst), url("SFPRODISPLAYREGULAR.woff") format("woff");
+  src: local("SF Pro Display Regular"),
+    url("SFPRODISPLAYREGULAR.woff") format("woff");
 }
 
 @font-face {
@@ -108,7 +109,8 @@
 
 body {
   margin: 0;
-  font-family: "AppleFontTekst";
+  font-family: "SF Pro Display Regular", -apple-system, BlinkMacSystemFont,
+    Arial;
 }
 
 a {
@@ -177,7 +179,7 @@ img {
 .preview p {
   font-size: 0.7em;
   white-space: pre-line;
-  font-family: "AppleFontTekst";
+  font-family: "SF Pro Display Regular", Arial;
 }
 
 .preview .orange_p {
@@ -545,7 +547,7 @@ img {
 }
 
 .featured_accessoires h2 {
-  font-family: "SF Pro Display Medium";
+  font-family: "SF Pro Display Medium", Arial;
   font-size: 2em;
   background-color: var(--third-background-color);
   padding: 2em 2em 1em 2em;
@@ -555,7 +557,7 @@ img {
 
 .featured_accessoires a {
   font-size: 1.1em;
-  font-family: "AppleFontTekst";
+  font-family: "SF Pro Display Regular", Arial;
 }
 
 /* magsafe section - start */
@@ -578,7 +580,7 @@ img {
   font-size: 1.05em;
   line-height: 1.35em;
 
-  font-family: "AppleFontTekst";
+  font-family: "SF Pro Display Regular", Arial;
 }
 
 /* magsafe section - end */
@@ -597,7 +599,7 @@ img {
   font-size: 1.05em;
   line-height: 1.35em;
 
-  font-family: "AppleFontTekst";
+  font-family: "SF Pro Display Regular", Arial;
 }
 
 .airtag a:first-of-type {
@@ -627,7 +629,7 @@ img {
   font-size: 1.05em;
   line-height: 1.35em;
 
-  font-family: "AppleFontTekst";
+  font-family: "SF Pro Display Regular", Arial;
 }
 
 .airpods a:first-of-type {
@@ -829,7 +831,7 @@ nav a.active {
 /*******************************/
 
 h1 {
-  font-family: "AppleFontTekst";
+  font-family: "SF Pro Display Regular", Arial;
   font-size: 1.1em;
   font-weight: 700;
   margin: 0.75em 0.5em 0.5em 0.5em;
@@ -943,7 +945,7 @@ button {
 .color_preview p {
   margin: 0.5em 0 0 0;
 
-  font-family: "AppleFontTekst";
+  font-family: "SF Pro Display Regular", Arial;
   font-size: 0.85em;
 }
 
@@ -1079,7 +1081,7 @@ button {
   text-align: center;
   align-items: center;
 
-  font-family: "SF Pro Display Medium";
+  font-family: "SF Pro Display Medium", Arial;
   font-size: 1em;
 }
 
@@ -1112,7 +1114,7 @@ button {
 h3 {
   font-size: 2.75em;
   margin: 0 0 0.25em 0;
-  font-family: "AppleFontTekst";
+  font-family: "SF Pro Display Regular", Arial;
 }
 
 /*******************************************/
@@ -1190,7 +1192,7 @@ h3 {
 }
 
 .size_and_weight li:nth-child(odd) {
-  font-family: "SF Pro Display Medium";
+  font-family: "SF Pro Display Medium", Arial;
   margin: 0 0 0.3em 0;
 }
 
@@ -1227,7 +1229,7 @@ h3 {
 h2 {
   margin: 0 0 1em 1em;
   padding: 0 0 0.9em 0;
-  font-family: "AppleFontTekst";
+  font-family: "SF Pro Display Regular", Arial;
   font-size: 1.5em;
 }
 
