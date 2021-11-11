@@ -20,6 +20,8 @@
   --header-background-color: rgb(48, 48, 48);
   --button-background-color: rgb(66, 58, 214);
   --menu-border-color: white;
+
+  --nav-accent-color: rgb(173, 173, 173);
 }
 
 /* fonts - start */
@@ -252,7 +254,11 @@ img {
   border-radius: 2.5em;
   border: none;
   font-size: 1em;
-  margin-bottom: 1em;
+  margin: 0 0 1em 0;
+}
+
+.thirteen_pro_main a:last-of-type {
+  margin: 0 0 2em 0;
 }
 
 .thirteen_pro_main p:nth-child(4) {
@@ -262,10 +268,6 @@ img {
 /* 13 pro main - end */
 
 /* iphone 13 pro - start */
-h1 {
-  font-weight: bolder;
-  font-size: 1.1em;
-}
 
 .iphone_thirteen_main {
   display: flex;
@@ -278,12 +280,6 @@ h1 {
   color: var(--main-color);
 
   margin: 0;
-}
-
-h2 {
-  margin-top: 2em;
-  font-size: 1em;
-  font-weight: bold;
 }
 
 .iphone_thirteen_main p:first-of-type {
@@ -335,6 +331,7 @@ h2 {
   font-size: 2em;
   text-align: center;
   margin: 3em 0 0 0;
+  padding: 0 2.5em 0.9em 2.5em;
 }
 
 .compare .main_img_compare img {
@@ -552,8 +549,9 @@ h2 {
   font-family: "SF Pro Display Medium";
   font-size: 2em;
   background-color: var(--third-background-color);
-  width: 100%;
   padding: 2em 2em 1em 2em;
+  margin: 1em 0 0 0;
+  width: 100%;
 }
 
 .featured_accessoires a {
@@ -765,8 +763,16 @@ nav.toonMenu ul {
 }
 
 nav.toonMenu li {
-  margin: 0 2.5em 0 2.5em;
+  margin: 0.4em 2.5em 0 2.5em;
   z-index: 100;
+  border-bottom: lightgray solid 0.5px;
+}
+
+nav.toonMenu a {
+  color: var(--nav-accent-color);
+  margin: 0 0 0.4em 0;
+
+  padding: 0;
 }
 
 nav.toonMenu li:first-of-type {
@@ -784,7 +790,6 @@ nav a {
   align-items: center;
   gap: 0.25em;
   padding: 0.25em 1em;
-  border-top: solid 1px var(--menu-border-color);
 }
 
 nav a img {
@@ -826,7 +831,7 @@ nav a.active {
 
 h1 {
   font-family: "SF Pro Display Regular";
-  font-size: 2.5em;
+  font-size: 1.1em;
   font-weight: 700;
   margin: 0.75em 0.5em 0.5em 0.5em;
 }
@@ -848,20 +853,6 @@ h1 {
   margin: 1em 0 0.5em 0;
 }
 
-.form_select_selection {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5em;
-  justify-content: center;
-  margin: 0 0 3em;
-}
-
-.form_select_selection select {
-  border: none;
-  padding: 0.25em 0.5em 0.25em 0.5em;
-  color: blue;
-}
-
 /*******************/
 /* hamburger icoon */
 /*******************/
@@ -872,37 +863,50 @@ nav button {
   transition: all 0.25s;
 }
 
-nav button span:first-of-type,
-nav button span:last-of-type {
+nav button div:first-of-type,
+nav button div:last-of-type {
   position: absolute;
-  left: 15px;
+  left: 0px;
   width: 22px;
   height: 1px;
   background: var(--main-color);
   transform: rotate(0);
   transition: all 0.25s;
+  z-index: 200;
 }
 
-span:first-of-type {
+nav div:first-of-type {
   top: 3px;
   transform: translateY(-3px);
 }
 
-span:last-of-type {
+nav div:last-of-type {
   bottom: 1px;
-  transform: translateY(1px);
+  transform: translateY(3px);
+}
+
+.second_div {
+  display: none;
+}
+
+.second_div .shown_second_div div:first-of-type {
+  transform: rotate(45deg) translateY(-2px);
+}
+
+.second_div .shown_second_div div:last-of-type {
+  transform: rotate(45deg) translateY(2px);
 }
 
 .toonMenu button {
   transform: rotate(90deg);
 }
 
-.toonMenu span:first-of-type {
-  transform: rotate(45deg) translateY(0px);
+.toonMenu div:first-of-type {
+  transform: rotate(45deg) translateY(-2px);
 }
 
-.toonMenu span:last-of-type {
-  transform: rotate(-45deg) translateY(0px);
+.toonMenu div:last-of-type {
+  transform: rotate(-45deg) translateY(2px);
 }
 
 /***************************/
@@ -958,14 +962,14 @@ button {
 /* positioneren buttons - start */
 /********************************/
 
-.color_preview article:first-of-type section,
+/* .color_preview article:first-of-type section,
 .color_preview article:last-of-type section {
   position: relative;
-}
+} */
 
 /* ^ zodat de buttons position absolute kunnen krijgen */
 
-.color_preview .buttons_first_column button:first-of-type {
+/* .color_preview .buttons_first_column button:first-of-type {
   position: absolute;
   top: 0;
   left: 4em;
@@ -987,11 +991,11 @@ button {
   position: absolute;
   bottom: 5.5em;
   right: 2.35em;
-}
+} */
 
 /* text positioneren */
 
-.buttons_first_column p:first-of-type {
+/* .buttons_first_column p:first-of-type {
   position: absolute;
   top: 1.7em;
   left: 3.2em;
@@ -1013,13 +1017,13 @@ button {
   position: absolute;
   bottom: 4em;
   right: 1.7em;
-}
+} */
 
 /*****************/
 /* second column */
 /*****************/
 
-.buttons_second_column button:first-of-type {
+/* .buttons_second_column button:first-of-type {
   position: absolute;
   top: 0;
   left: 2.4em;
@@ -1041,7 +1045,7 @@ button {
   position: absolute;
   bottom: 4.5em;
   right: 1em;
-}
+} */
 /*******************************/
 /* positioneren buttons - end  */
 /*******************************/
@@ -1056,4 +1060,212 @@ button {
 
 .removed_text {
   display: none;
+}
+
+/*******************************************/
+/* Vergelijken pagina - quick look - start */
+/*******************************************/
+
+.quick_look {
+  margin: 0 1.5em 0 1.5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5em;
+}
+
+.quick_look article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  font-family: "SF Pro Display Medium";
+  font-size: 1em;
+}
+
+.quick_look p:first-of-type,
+.quick_look p:nth-of-type(2),
+.quick_look p:nth-of-type(7),
+.quick_look p:nth-of-type(8),
+.quick_look p:nth-of-type(9),
+.quick_look p:nth-of-type(14),
+.quick_look p:nth-of-type(15),
+.quick_look p:nth-of-type(16),
+.quick_look p:nth-of-type(18),
+.quick_look p:nth-of-type(19),
+.quick_look p:nth-of-type(20) {
+  margin: 0 0 5em 0;
+}
+
+.quick_look img {
+  width: 5em;
+  height: auto;
+  margin: 0 0 1em 0;
+}
+
+.quick_look img:last-of-type,
+.quick_look img:nth-of-type(8) {
+  width: 3em;
+  height: auto;
+}
+
+h3 {
+  font-size: 2.75em;
+  margin: 0 0 0.25em 0;
+  font-family: "SF Pro Display Regular";
+}
+
+/*******************************************/
+/* Vergelijken pagina - quick look - end */
+/*******************************************/
+
+/********************/
+/* Capacity - start */
+/********************/
+
+.capacity {
+  margin: 0 1.5em 2em 1.5em;
+
+  display: flex;
+}
+
+.capacity ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 7.5em 0 0;
+}
+
+.capacity ul li {
+  padding: 0.85em 0 0.85em 0;
+}
+
+/******************/
+/* Capacity - end */
+/******************/
+
+/*******************/
+/* Display - start */
+/*******************/
+
+.display {
+  margin: 0 1.5em 3em 1.5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5em;
+  text-align: flex-start;
+}
+
+.display ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.display li {
+  margin: 1.25em 0 0 0;
+}
+
+.display ul:last-of-type li:nth-of-type(2) {
+  margin: 1.25em 0 2.45em 0;
+}
+/*******************/
+/* Display - end */
+/*******************/
+
+/*******************/
+/* Size and Weight */
+/*******************/
+
+.size_and_weight {
+  margin: 0 1.5em 0 1.5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5em;
+  text-align: flex-start;
+}
+
+.size_and_weight ul {
+  list-style: none;
+  padding: 0;
+}
+
+.size_and_weight li:nth-child(odd) {
+  font-family: "SF Pro Display Medium";
+  margin: 0 0 0.3em 0;
+}
+
+.size_and_weight li:nth-child(even) {
+  margin: 0 0 1.5em 0;
+  font-size: 0.9em;
+}
+
+/*************************/
+/* Size and weight - end */
+/*************************/
+
+/*********************************/
+/* Splash water and dust - start */
+/*********************************/
+
+.splash_water_and_dust {
+  margin: 0 1.5em 0 1.5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5em;
+  text-align: flex-start;
+}
+
+.splash_water_and_dust p {
+  font-size: 0.9em;
+  margin: 0 0 3.5em 0;
+}
+
+/*******************************/
+/* Splash water and dust - end */
+/*******************************/
+
+h2 {
+  margin: 0 0 1em 1em;
+  padding: 0 0 0.9em 0;
+  font-family: "SF Pro Display Regular";
+  font-size: 1.5em;
+}
+
+.iphone_thirteen_main h2 {
+  margin: 1.25em 0 0.125em 0;
+  padding: 0 0 1.3em 0;
+}
+/********/
+/* test */
+/********/
+
+.form_select_selection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5em;
+}
+
+.form_select_selection button {
+  padding: 0 0 0.8em 0;
+}
+
+.color_preview section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 0 6em 0;
+}
+
+.color_preview button {
+  margin: 0.25em;
+}
+
+.color_preview section button:nth-of-type(odd) {
+  padding: 0 0 0 2.75em;
+}
+
+.color_preview section button:nth-of-type(even) {
+  padding: 0 2.75em 0 0;
 }

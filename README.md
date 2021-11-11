@@ -14,11 +14,11 @@ Nb. Door _open_ toe te voegen aan een _details_ element kun je deze standaard op
 
 ### Auteur:
 
-Jochem
+Jochem Geuze
 
 #### Je startniveau:
 
-Rode piste
+Blauwe
 
 #### Je focus:
 
@@ -76,25 +76,6 @@ vergelijken telefoons
 
 Code zag er goed uit, meer gebruik maken van comments in m'n html en css. En even nagaan hoe belangrijk het is om nth te gebruiken ipv classes. Want dat kan ik nog verbeteren.
 
-### Agenda voor meeting
-
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-### Verslag van meeting
-
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
 </details>
 
 ## Voortgang 2 (week 3)
@@ -104,26 +85,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-### Agenda voor meeting
-
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-### Verslag van meeting
-
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Alle html stond er inmiddels in, maar ik had sommige h5 en h6 genoemd en die moet ik veranderen naar h2 en h3. Er is al een begin van css en dit gaat al goed. Eerste deel van index.html staat er al goed in.
 
 </details>
 
@@ -132,39 +94,17 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <details>
 <summary>uitwerken na test in 8e voortgang</summary>
 
-### Bevindingen
+### Leesbaarheid
 
-Bij de preview bar, word de compare image niet meegenomen
+Contrast op index.html is goed. Tekst is allemaal goed leesbaar en als je de pagina vergroot is het zeker prima te doen.
 
-kleuren button een alt tekst geven zodat er wordt gezegd, pruple button
+#### Keyboard navigatie
 
-speelt met tab alleen de linkjes af
+Alle buttons- en a-elementen worden goed opgepakt als je tab gebruikt. Sommige tekst wordt wel overgeslagen, maar buttons en linkjes zijn goed te gebruiken.
 
-greater then icon misschien als een img maken ofzo, idk
+#### Test met trillende hand
 
-#### Titel eerste bevinding
-
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-#### Titel tweede bevinding.
-
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-#### Titel volgende bevinding.
-
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-#### Titel nog een bevinding.
-
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Bij de test of mijn website goed te bedienen is voor iemand met een fysieke beperkingen aan de handen, kwam er uit dat sommige knopjes wel klein zijn. Het was een beetje priegelen en de buttons met kleuren waren eigenlijk gewoon te klein.
 
 </details>
 
@@ -175,26 +115,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-### Agenda voor meeting
-
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-### Verslag van meeting
-
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Css van index.html staat er al, header en footer staan ook beide maar de opmaak van vergelijken.html is nog niet goed genoeg. En ik heb teveel classes en er staan teveel sections in sections, dus deze moet ik zoveel mogelijk verwijderen of eventueel vervangen met articles.
 
 </details>
 
@@ -205,7 +126,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb eigenlijk alles wat ik wilde zo goed als mogelijk gefixt, alleen de navigatie-knop werkt uiteindelijk niet zoals ik wil helaas. Ook werken bij de vergelijken pagina
+
+<img src="images/Headerknopje.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 ### Screenshot(s)
 
