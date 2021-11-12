@@ -2,25 +2,9 @@
 
 var deButton = document.querySelector('.nav_button');
 
-deButton.addEventListener('click', toggleMenu);
-
-deButton.addEventListener('click', toggleSecondDiv);
-
-function toggleMenu(event) {
-  deNav = document.querySelector('.nav');
-  deNav.classList.toggle('toonMenu');
-  console.log('hallo');
-}
-
-function toggleSecondDiv(event) {
-  deSecondButton = document.querySelector('.second_div');
-  deSecondButton.classList.toggle('shown_second_div');
-  console.log('second divje werkt goed');
-}
-
-/****************/
-/* testen start */
-/****************/
+/***********************************/
+/* buttons van vergelijken - start */
+/***********************************/
 
 var graphiteButton = document.querySelector('.graphite_button');
 var goldButton = document.querySelector('.gold_button');
@@ -34,6 +18,54 @@ var silverButtonSCD = document.querySelector('.silver_button_scd');
 
 var sierraPhone = document.querySelector('.sierra_phone');
 var sierraPhoneScd = document.querySelector('.sierra_phone_scd');
+
+/***********************************/
+/* buttons van vergelijken - einde */
+/***********************************/
+
+//
+
+/********************************************/
+/* event listener voor de navigatie - start */
+/********************************************/
+
+deButton.addEventListener('click', toggleMenu);
+
+deButton.addEventListener('click', toggleSecondDiv);
+
+/******************************************/
+/* event listener voor de navigatie - end */
+/******************************************/
+
+// 
+
+/******************************************/
+/* navigatie uitklap menu functie - start */
+/******************************************/
+
+function toggleMenu(event) {
+  deNav = document.querySelector('.nav');
+  deNav.classList.toggle('toonMenu');
+  console.log('hallo');
+}
+
+function toggleSecondDiv(event) {
+  deSecondButton = document.querySelector('.second_div');
+  deSecondButton.classList.toggle('shown_second_div');
+  console.log('second divje werkt goed');
+}
+
+/******************************************/
+/* navigatie uitklap menu functie - einde */
+/******************************************/
+
+// 
+
+/*************************************************************/
+/* functie's voor kleuren kiezen op vergelijken.html - start */
+/*************************************************************/
+
+
 
 function graphiteKnopjeSCD(){
   console.log('scd function graphite');
@@ -83,6 +115,16 @@ function graphiteKnopje(){
   sierraPhone.src = './images/compare_iphone13_pro_graphite__d1df9sqcud8i_large.jpg';
 }
 
+/*************************************************************/
+/* functie's voor kleuren kiezen op vergelijken.html - einde */
+/*************************************************************/
+
+// 
+
+/******************************************************************/
+/* event listener voor kleuren kiezen op vergelijken.html - start */
+/******************************************************************/
+
 graphiteButtonSCD.addEventListener('click', graphiteKnopjeSCD);
 goldButtonSCD.addEventListener('click', goldKnopjeSCD);
 sierraButtonSCD.addEventListener('click', sierraKnopjeSCD);
@@ -93,6 +135,6 @@ graphiteButton.addEventListener('click', graphiteKnopje);
 sierraButton.addEventListener('click', sierraKnopje);
 silverButton.addEventListener('click', silverKnopje);
 
-/****************/
-/* testen einde */
-/****************/
+/******************************************************************/
+/* event listener voor kleuren kiezen op vergelijken.html - einde */
+/******************************************************************/

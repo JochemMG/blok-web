@@ -38,13 +38,12 @@ https://www.apple.com/nl/shop/buy-iphone/iphone-12
 #### Screenshot(s) van de eerste pagina (small screen):
 
 verkoop pagina (druk op cmd shift + r om alle foto's makkelijk te kopieren)  
-<img src="images/Verkoop-pagina-1.png" width="375px" alt="eerste deel">
-<img src="images/Verkoop-pagina-2.png" width="375px" alt="tweede deel">
+<img src="images/official_index.png" width="375px" alt="officiele apple site">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
 vergelijken telefoons
-<img src="images/vergelijken-pagina.png" width="375px" alt="vergelijken van telefoons">
+<img src="images/official_vergelijken.png" width="375px" alt="officiele apple site">
 
 </details>
 
@@ -55,15 +54,11 @@ vergelijken telefoons
 
 ### de hele pagina:
 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets-1.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu):
 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter):
-
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/breakdownschets-2.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
